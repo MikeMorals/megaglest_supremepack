@@ -6,8 +6,8 @@
 		<height value="2"/>
 		<max-hp value="700" regeneration="5"/>
 		<max-ep value="500" regeneration="15"/>
-		<armor value="30"/>
-		<armor-type value="leather"/>
+		<armor value="20"/>
+		<armor-type value="leather_and_metal"/>
 		<sight value="12"/>
 		<time value="20"/>
 		<multi-selection value="true"/>

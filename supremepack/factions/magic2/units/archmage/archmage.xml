@@ -65,7 +65,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="140"/>
+			<speed value="170"/>
 			<anim-speed value="140"/>
 			<animation path="models/archmage_walking.g3d"/>
 			<sound enabled="false"/>
@@ -90,7 +90,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack15.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack16.wav"/>
 			</sound>
-			<attack-strenght value="125"/>
+			<attack-strenght value="150"/>
 			<attack-var value="50"/>
 			<attack-range value="9"/>
 			<attack-type value="energy"/>

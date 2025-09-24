@@ -9,8 +9,8 @@
 		<height value="2"/>
 		<max-hp value="1500" regeneration="10"/>
 		<max-ep value="0"/>
-		<armor value="10"/>
-		<armor-type value="organic"/>
+		<armor value="0"/>
+		<armor-type value="leather_and_metal"/>
 		<sight value="10"/>
 		<time value="120"/>
 		<multi-selection value="true"/>

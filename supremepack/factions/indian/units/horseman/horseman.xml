@@ -7,17 +7,15 @@
 	<parameters>
 		<size value="2"/>
 		<height value="2"/>
-		<max-hp value="1300" regeneration="2"/>
+		<max-hp value="2000" regeneration="10"/>
 		<max-ep value="0"/>
-		<armor value="50"/>
-		<armor-type value="leather"/>
+		<armor value="10"/>
+		<armor-type value="leather_and_metal"/>
 		<sight value="10"/>
 		<time value="120"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
-		<levels>
-			<level name="elite" kills="6"/>
-		</levels>
+		<levels/>
 		<fields>
 			<field value="land"/>
 		</fields>
@@ -105,8 +103,8 @@
 				<sound-file path="sounds/horseman_attack4.wav"/>
 				<sound-file path="sounds/horseman_attack5.wav"/>
 			</sound>
-			<attack-strenght value="215"/>
-			<attack-var value="25"/>
+			<attack-strenght value="175"/>
+			<attack-var value="50"/>
 			<attack-range value="3"/>
 			<attack-type value="slashing"/>
 			<attack-fields>
