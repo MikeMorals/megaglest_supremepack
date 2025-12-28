@@ -11,6 +11,7 @@
 		<resource name="wood" amount="100"/>
 	</resource-requirements>
 	<effects>
+		<unit name="spearman"/>
 		<unit name="swordsman"/>
 		<unit name="cavalry"/>
 		<unit name="axe_man"/>

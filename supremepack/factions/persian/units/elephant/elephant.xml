@@ -7,10 +7,10 @@
 	<parameters>
 		<size value="2"/>
 		<height value="2"/>
-		<max-hp value="2500" regeneration="20"/>
+		<max-hp value="2000" regeneration="20"/>
 		<max-ep value="0"/>
-		<armor value="20"/>
-		<armor-type value="leather"/>
+		<armor value="10"/>
+		<armor-type value="leather_and_metal"/>
 		<sight value="15"/>
 		<time value="120"/>
 		<multi-selection value="true"/>
@@ -141,7 +141,7 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="150"/>
+			<speed value="70"/>
 			<anim-speed value="70"/>
 			<animation path="models/elephant_attack.g3d"/>
 			<sound enabled="true" start-time="0.47">
@@ -149,7 +149,7 @@
 				<sound-file path="sounds/eleattack3.wav"/>
 				<sound-file path="sounds/eleattack3.wav"/>
 			</sound>
-			<attack-strenght value="500"/>
+			<attack-strenght value="400"/>
 			<attack-var value="100"/>
 			<attack-range value="2"/>
 			<attack-type value="slashing"/>

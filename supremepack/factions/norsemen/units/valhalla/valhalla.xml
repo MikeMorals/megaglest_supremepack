@@ -124,6 +124,15 @@
 			<produced-unit name="valkyrie"/>
 		</command>
 		<command>
+			<type value="produce"/>
+			<name value="produce_thor" />
+			<image path="../thor/images/thor.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="thor"/>
+		</command>
+		<command>
 			<type value="upgrade"/>
 			<name value="research_holy_valkyrie"/>
 			<image path="../../upgrades/holy_valkyrie/images/holy_valkyrie.bmp"/>

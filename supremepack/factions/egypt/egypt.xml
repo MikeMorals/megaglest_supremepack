@@ -18,6 +18,7 @@
 	</starting-units>
 	<music value="true" path="music/asak-jadeflange.ogg"/>
 	<flat-particle-positions value="true"/>
+	<!--
 	<ai-behavior>
 		<worker-units>
 			<unit name="slave" minimum="8"/>
@@ -52,4 +53,5 @@
 			<static type-name="MinMinWarriorsExpandCpuMega" value="12"/>
 		</static-values>
 	</ai-behavior>
+	-->
 </faction>

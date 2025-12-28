@@ -17,6 +17,7 @@
 	</starting-units>
 	<music value="true" path="music/music_tech.ogg"/>
 	<flat-particle-positions value="true"/>
+	<!--
 	<ai-behavior>
 		<worker-units>
 			<unit name="worker" minimum="8"/>
@@ -25,7 +26,8 @@
 			<unit name="archer" minimum="3"/>
 			<unit name="swordman" minimum="3"/>
 			<unit name="guard" minimum="3"/>
-			<!--unit name="catapult" max="2"/-->
+			<unit name="catapult" max="2"/>
+			
 		</warrior-units>
 		<resource-producer-units>
 			<unit name="farm" minimum="1"/>
@@ -45,4 +47,5 @@
 		</upgrades>
 		<static-values/>
 	</ai-behavior>
+	-->
 </faction>

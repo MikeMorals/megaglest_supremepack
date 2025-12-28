@@ -17,6 +17,7 @@
 	<music value="true" path="music/music_indian.ogg"/>
 	<flat-particle-positions value="true"/>
 	<ai-behavior>
+	<!--
 		<worker-units/>
 		<warrior-units/>
 		<resource-producer-units>
@@ -34,5 +35,6 @@
 			<upgrade name="iron"/>
 		</upgrades>
 		<static-values/>
+	-->
 	</ai-behavior>
 </faction>

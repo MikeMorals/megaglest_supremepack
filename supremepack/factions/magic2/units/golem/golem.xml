@@ -5,17 +5,15 @@
 		<size value="2"/>
 		<height value="2"/>
 		<ai-build-size value="4"/>
-		<max-hp value="2000" regeneration="5"/>
+		<max-hp value="2500" regeneration="3"/>
 		<max-ep value="1000" regeneration="10" start-percentage="50"/>
-		<armor value="10"/>
-		<armor-type value="stone"/>
+		<armor value="80"/>
+		<armor-type value="leather_and_metal"/>
 		<sight value="10"/>
-		<time value="150"/>
+		<time value="90"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
-		<levels>
-			<level name="ancient" kills="10"/>
-		</levels>
+		<levels/>
 		<fields>
 			<field value="land"/>
 		</fields>
@@ -29,7 +27,7 @@
 		<resource-requirements>
 			<resource name="stone" amount="250"/>
 			<resource name="gold" amount="250"/>
-			<resource name="energy" amount="2"/>
+			<resource name="energy" amount="1"/>
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/golem.bmp"/>
@@ -75,7 +73,7 @@
 		<skill>
 			<type value="move"/>
 			<name value="move_skill"/>
-			<ep-cost value="100"/>
+			<ep-cost value="0"/>
 			<speed value="50"/>
 			<anim-speed value="20"/>
 			<animation path="models/golem_walking.g3d"/>
@@ -88,7 +86,7 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="50"/>
+			<speed value="60"/>
 			<anim-speed value="60"/>
 			<animation path="models/golem_attacking.g3d"/>
 			<sound enabled="true" start-time="0">
@@ -118,7 +116,7 @@
 			<type value="morph"/>
 			<name value="morph_skill"/>
 			<ep-cost value="0"/>
-			<speed value="500"/>
+			<speed value="100"/>
 			<anim-speed value="100"/>
 			<animation path="models/golem_standing.g3d"/>
 			<sound enabled="false"/>

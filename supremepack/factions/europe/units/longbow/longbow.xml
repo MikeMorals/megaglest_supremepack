@@ -4,17 +4,15 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="1000" regeneration="3"/>
+		<max-hp value="800" regeneration="3"/>
 		<max-ep value="0"/>
-		<armor value="20"/>
-		<armor-type value="leather"/>
+		<armor value="10"/>
+		<armor-type value="leather_and_metal"/>
 		<sight value="15"/>
-		<time value="25"/>
+		<time value="30"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
-		<levels>
-			<level name="elite" kills="6"/>
-		</levels>
+		<levels/>
 		<fields>
 			<field value="land"/>
 			<field value="air"/>
@@ -24,7 +22,9 @@
 		<unit-requirements>
 			<unit name="barracks"/>
 		</unit-requirements>
-		<upgrade-requirements/>
+		<upgrade-requirements>
+			<upgrade name="shield_level_1"/>
+		</upgrade-requirements>
 		<resource-requirements>
 			<resource name="gold" amount="150"/>
 			<resource name="wood" amount="100"/>
@@ -84,7 +84,7 @@
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
 			<speed value="220"/>
-			<anim-speed value="125"/>
+			<anim-speed value="100"/>
 			<animation path="models/run.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -93,18 +93,18 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="50"/>
+			<speed value="40"/>
 			<anim-speed value="40"/>
 			<animation path="models/attack.g3d"/>
-			<sound enabled="true" start-time="0.5">
+			<sound enabled="true" start-time="0.70">
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack2.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack3.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack4.wav"/>
 			</sound>
-			<attack-strenght value="200"/>
+			<attack-strenght value="150"/>
 			<attack-var value="50"/>
-			<attack-range value="11"/>
+			<attack-range value="12"/>
 			<attack-type value="piercing"/>
 			<attack-start-time value="0.5"/>
 			<attack-fields>

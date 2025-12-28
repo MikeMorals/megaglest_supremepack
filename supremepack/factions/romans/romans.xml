@@ -17,6 +17,7 @@
 	</starting-units>
 	<music value="true" path="music/romans.ogg"/>
 	<flat-particle-positions value="true"/>
+	<!--
 	<ai-behavior>
 		<worker-units>
 			<unit name="slave" minimum="8"/>
@@ -44,5 +45,6 @@
 		</upgrades>
 		<static-values/>
 	</ai-behavior>
+	-->
 </faction>
 

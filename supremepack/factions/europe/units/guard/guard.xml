@@ -4,7 +4,7 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="1000"regeneration="3"/>
+		<max-hp value="1000"regeneration="5"/>
 		<max-ep value="0"/>
 		<armor value="40"/>
 		<armor-type value="leather_and_metal"/>
@@ -13,7 +13,7 @@
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="elite" kills="3"/>
+			<level name="elite" kills="4"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -26,8 +26,8 @@
 		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="wood" amount="50"/>
-			<resource name="gold" amount="100"/>
+			<resource name="wood" amount="75"/>
+			<resource name="gold" amount="150"/>
 			<resource name="food" amount="1"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -77,8 +77,8 @@
 			<type value="move"/>
 			<name value="charge_skill"/>
 			<ep-cost value="0"/>
-			<speed value="175"/>
-			<anim-speed value="110"/>
+			<speed value="200"/>
+			<anim-speed value="120"/>
 			<animation path="models/guard_charging.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/newsounds/metal_walk1.wav"/>
@@ -94,8 +94,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="75"/>
-			<anim-speed value="75"/>
+			<speed value="90"/>
+			<anim-speed value="90"/>
 			<animation path="models/guard_attacking.g3d"/>
 			<sound enabled="true" start-time="0.47">
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack1.wav"/>

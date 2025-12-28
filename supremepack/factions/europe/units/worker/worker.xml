@@ -51,7 +51,15 @@
 	<!-- *** skills *** -->
 
 	<skills>
-
+		<skill>
+			<type value="morph"/>
+			<name value="morph_skill"/>
+			<ep-cost value="0"/>
+			<speed value="100"/>
+			<anim-speed value="55"/>
+			<animation path="models/worker_standing.g3d"/>
+			<sound enabled="false"/>
+		</skill>
 		<skill>
 			<type value="stop"/>
 			<name value="stop_skill"/>
@@ -325,6 +333,15 @@
                 <unit name="dukes_palace"/>
 			</repaired-units>
 		</command>
-
+		<command>
+			<type value="morph"/>
+			<name value="promote_to_priest"/>
+			<image path="../priest/images/self.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<morph-skill value="morph_skill"/>
+			<morph-unit name= "priest"/>
+			<discount value="90"/>
+		</command>
 	</commands>
 </unit>

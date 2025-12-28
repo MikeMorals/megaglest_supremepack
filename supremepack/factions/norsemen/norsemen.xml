@@ -9,15 +9,16 @@
 	</starting-resources>
 	<starting-units>
 		<unit name="castle" amount="1"/>
-		<unit name="swordman" amount="1"/>
+		<unit name="swordman" amount="2"/>
+		<unit name="battleaxe" amount="2"/>
 		<unit name="archer" amount="1"/>
-		<unit name="spearman" amount="2"/>
 		<unit name="cow" amount="2"/>
 		<unit name="axe_thrower" amount="1"/>
 		<unit name="thrall" amount="6"/>
 	</starting-units>
 	<music value="true" path="music/manolo_camp-medieval.ogg"/>
 	<flat-particle-positions value="true"/>
+	<!--
 	<ai-behavior>
 		<worker-units>
 			<unit name="thrall" minimum="8"/>
@@ -47,4 +48,5 @@
 		<upgrades/>
 		<static-values/>
 	</ai-behavior>
+	-->
 </faction>
