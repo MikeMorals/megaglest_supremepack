@@ -6,8 +6,8 @@
 		<height value="2"/>
 		<max-hp value="700" regeneration="5"/>
 		<max-ep value="3000" regeneration="100"/>
-		<armor value="20"/>
-		<armor-type value="leather"/>
+		<armor value="10"/>
+		<armor-type value="leather_and_metal"/>
 		<sight value="12"/>
 		<time value="40"/>
 		<multi-selection value="true"/>
@@ -58,25 +58,25 @@
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="35"/>
-			<animation path="models/archmage_standing.g3d"/>
+			<animation path="models/stand.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 		<skill>
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="170"/>
-			<anim-speed value="140"/>
-			<animation path="models/archmage_walking.g3d"/>
+			<speed value="220"/>
+			<anim-speed value="90"/>
+			<animation path="models/run.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 		<skill>
 			<type value="attack"/>
 			<name value="ice_nova_skill"/>
 			<ep-cost value="300"/>
-			<speed value="85"/>
+			<speed value="75"/>
 			<anim-speed value="75"/>
-			<animation path="models/archmage_attacking.g3d"/>
+			<animation path="models/attack.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack2.wav"/>
@@ -93,7 +93,7 @@
 			<attack-strenght value="150"/>
 			<attack-var value="50"/>
 			<attack-range value="9"/>
-			<attack-type value="energy"/>
+			<attack-type value="piercing"/>
 			<attack-fields>
 				<field value="land"/>
 			</attack-fields>
@@ -116,10 +116,10 @@
 		<skill>
 			<type value="attack"/>
 			<name value="static_fire_skill"/>
-			<ep-cost value="800"/>
-			<speed value="50"/>
+			<ep-cost value="600"/>
+			<speed value="40"/>
 			<anim-speed value="40"/>
-			<animation path="models/archmage_attacking.g3d"/>
+			<animation path="models/attack.g3d"/>
 			<sound enabled="true" start-time="0.2">
 				<sound-file path="sounds/archmage_attack17.wav"/>
 				<sound-file path="sounds/archmage_attack18.wav"/>
@@ -130,8 +130,8 @@
 				<sound-file path="sounds/archmage_attack23.wav"/>
 				<sound-file path="sounds/archmage_attack24.wav"/>
 			</sound>
-			<attack-strenght value="600"/>
-			<attack-var value="50"/>
+			<attack-strenght value="500"/>
+			<attack-var value="100"/>
 			<attack-range value="11"/>
 			<attack-type value="energy"/>
 			<attack-fields>
@@ -160,7 +160,7 @@
 			<ep-cost value="0"/>
 			<speed value="120"/>
 			<anim-speed value="120"/>
-			<animation path="models/archmage_dying.g3d"/>
+			<animation path="models/die.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_die1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_die2.wav"/>

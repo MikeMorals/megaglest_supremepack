@@ -7,8 +7,8 @@
 		<height value="2"/>
 		<max-hp value="700" regeneration="5"/>
 		<max-ep value="100" regeneration="5"/>
-		<armor value="0"/>
-		<armor-type value="leather"/>
+		<armor value="10"/>
+		<armor-type value="leather_and_metal"/>
 		<sight value="10"/>
 		<time value="80"/>
 		<multi-selection value="true"/>
@@ -219,22 +219,22 @@
 
 		<command>
 			<type value="produce"/>
-			<name value="summon_daemon" />
-			<image path="images/summoner_daemon.bmp"/>
-			<unit-requirements />
-			<upgrade-requirements />
-			<produce-skill value="summon_skill"/>
-			<produced-unit name="daemon"/>
-		</command>
-
-		<command>
-			<type value="produce"/>
 			<name value="summon_ghost_armor" />
 			<image path="images/summoner_armor.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<produce-skill value="summon_skill"/>
 			<produced-unit name="ghost_armor"/>
+		</command>
+
+		<command>
+			<type value="produce"/>
+			<name value="summon_daemon" />
+			<image path="images/summoner_daemon.bmp"/>
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="summon_skill"/>
+			<produced-unit name="daemon"/>
 		</command>
 
 		<command>

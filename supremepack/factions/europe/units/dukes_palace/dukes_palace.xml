@@ -33,9 +33,9 @@
 			<resource name="stone" amount="200" />
 		</resource-requirements>
 		<resources-stored>
-			<resource name="gold" amount="200"/>
-			<resource name="stone" amount="100"/>
-			<resource name="wood" amount="200" />
+			<resource name="gold" amount="500"/>
+			<resource name="stone" amount="350"/>
+			<resource name="wood" amount="500" />
 		</resources-stored>
 		<image path="images/self.bmp"/>
 		<image-cancel path="../archer/images/cancel.bmp"/>
@@ -63,7 +63,7 @@
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="100"/>
-			<animation path="models/technodrome.g3d"/>
+			<animation path="models/dojan.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 		<skill>
@@ -72,7 +72,7 @@
 			<ep-cost value="0"/>
 			<speed value="100"/>
 			<anim-speed value="100"/>
-			<animation path="models/technodrome.g3d"/>
+			<animation path="models/dojan.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 		<skill>
@@ -81,7 +81,7 @@
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="300"/>
-			<animation path="models/technodrome.g3d"/>
+			<animation path="models/dojan.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 		<skill>
