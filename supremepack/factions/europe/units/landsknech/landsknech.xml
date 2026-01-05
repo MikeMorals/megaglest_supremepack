@@ -9,7 +9,7 @@
 		<armor value="40"/>
 		<armor-type value="leather_and_metal"/>
 		<sight value="10"/>
-		<time value="30"/>
+		<time value="35"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels/>
@@ -94,8 +94,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="70"/>
-			<anim-speed value="70"/>
+			<speed value="80"/>
+			<anim-speed value="80"/>
 			<animation path="models/attack.g3d"/>
 			<sound enabled="true" start-time="0.10">
 				<sound-file path="$COMMONDATAPATH/sounds/horseman_attack1.wav"/>
@@ -113,7 +113,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/horseman_attack13.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/horseman_attack14.wav"/>
 			</sound>
-			<attack-strenght value="250"/>
+			<attack-strenght value="225"/>
 			<attack-var value="50"/>
 			<attack-range value="2"/>
 			<attack-type value="slashing"/>

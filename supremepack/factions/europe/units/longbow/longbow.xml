@@ -9,7 +9,7 @@
 		<armor value="10"/>
 		<armor-type value="leather_and_metal"/>
 		<sight value="15"/>
-		<time value="30"/>
+		<time value="40"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels/>
@@ -102,7 +102,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack3.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack4.wav"/>
 			</sound>
-			<attack-strenght value="150"/>
+			<attack-strenght value="175"/>
 			<attack-var value="50"/>
 			<attack-range value="12"/>
 			<attack-type value="piercing"/>
