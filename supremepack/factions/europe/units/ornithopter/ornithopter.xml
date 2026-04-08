@@ -97,15 +97,15 @@
 			<type value="attack"/>
 			<name value="molotov_skill"/>
 			<ep-cost value="0"/>
-			<speed value="40"/>
-			<anim-speed value="35"/>
+			<speed value="50"/>
+			<anim-speed value="50"/>
 			<animation path="models/ornithopter_attacking.g3d"/>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="../priest/sounds/technician_attack.wav"/>
 			</sound>
 			<attack-strenght value="100"/>
 			<attack-var value="50"/>
-			<attack-range value="10"/>
+			<attack-range value="8"/>
 			<attack-type value="energy"/>
 			<attack-start-time value="0.5"/>
 			<attack-fields>

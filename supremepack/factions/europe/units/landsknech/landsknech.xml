@@ -4,12 +4,12 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="1200" regeneration="10"/>
+		<max-hp value="1000" regeneration="10"/>
 		<max-ep value="0"/>
 		<armor value="40"/>
 		<armor-type value="leather_and_metal"/>
 		<sight value="10"/>
-		<time value="35"/>
+		<time value="25"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels/>
@@ -113,7 +113,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/horseman_attack13.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/horseman_attack14.wav"/>
 			</sound>
-			<attack-strenght value="225"/>
+			<attack-strenght value="250"/>
 			<attack-var value="50"/>
 			<attack-range value="2"/>
 			<attack-type value="slashing"/>

@@ -83,7 +83,7 @@
 			<type value="produce" />
 			<name value="produce_skill"/>
 			<ep-cost value="0" />
-			<speed value="300" />
+			<speed value="100" />
 			<anim-speed value="40" />
 			<animation path="models/campfire.g3d" />
 			<particles value="true">
@@ -95,7 +95,7 @@
 			<type value="upgrade"/>
 			<name value="upgrade_skill"/>
 			<ep-cost value="0"/>
-			<speed value="300"/>
+			<speed value="100"/>
 			<anim-speed value="30"/>
 			<animation path="models/campfire.g3d"/>
 			<particles value="true">

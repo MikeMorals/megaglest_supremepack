@@ -90,7 +90,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack15.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack16.wav"/>
 			</sound>
-			<attack-strenght value="150"/>
+			<attack-strenght value="100"/>
 			<attack-var value="50"/>
 			<attack-range value="9"/>
 			<attack-type value="piercing"/>
@@ -116,7 +116,7 @@
 		<skill>
 			<type value="attack"/>
 			<name value="static_fire_skill"/>
-			<ep-cost value="600"/>
+			<ep-cost value="1000"/>
 			<speed value="40"/>
 			<anim-speed value="40"/>
 			<animation path="models/attack.g3d"/>
@@ -130,9 +130,9 @@
 				<sound-file path="sounds/archmage_attack23.wav"/>
 				<sound-file path="sounds/archmage_attack24.wav"/>
 			</sound>
-			<attack-strenght value="500"/>
-			<attack-var value="100"/>
-			<attack-range value="11"/>
+			<attack-strenght value="450"/>
+			<attack-var value="50"/>
+			<attack-range value="9"/>
 			<attack-type value="energy"/>
 			<attack-fields>
 				<field value="land"/>

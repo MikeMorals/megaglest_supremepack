@@ -18,6 +18,7 @@
 	</starting-units>
 	<music value="true" path="music/aminos-together_together.ogg"/>
 	<flat-particle-positions value="true"/>
+	<!--
 	<ai-behavior>
 		<worker-units>
 			<unit name="worker" minimum="8"/>
@@ -34,4 +35,5 @@
 			<static type-name="MinWorkerAttackersHarvesting" value="40"/>
 		</static-values>
 	</ai-behavior>
+	-->
 </faction>

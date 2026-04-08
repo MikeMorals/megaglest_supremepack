@@ -3,12 +3,12 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="700" regeneration="3"/>
+		<max-hp value="500" regeneration="3"/>
 		<max-ep value="0"/>
-		<armor value="20"/>
-		<armor-type value="leather"/>
+		<armor value="10"/>
+		<armor-type value="leather_and_metal"/>
 		<sight value="15"/>
-		<time value="45"/>
+		<time value="20"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>

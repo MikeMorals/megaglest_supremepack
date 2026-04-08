@@ -66,7 +66,7 @@
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
 			<speed value="80"/>
-			<anim-speed value="190"/>
+			<anim-speed value="160"/>
 			<animation path="models/beehive_attacking.g3d"/>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="sounds/bee1.wav"/>
@@ -74,7 +74,7 @@
 				<sound-file path="sounds/bee3.wav"/>
 				<sound-file path="sounds/bee4.wav"/>
 			</sound>
-			<attack-strenght value="100"/>
+			<attack-strenght value="125"/>
 			<attack-var value="50"/>
 			<attack-range value="12"/>
 			<attack-type value="energy"/>

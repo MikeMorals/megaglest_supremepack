@@ -118,5 +118,15 @@
 			<produced-unit name="archmage"/>
 		</command>
 		
+		<command>
+			<type value="produce"/>
+			<name value="produce_blastmage"/>
+			<image path="../blastmage/images/self.bmp" />
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="blastmage"/>
+		</command>
+		
 	</commands>
 </unit>

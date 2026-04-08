@@ -12,7 +12,7 @@
 		<armor value="10"/>
 		<armor-type value="leather_and_metal"/>
 		<sight value="10"/>
-		<time value="120"/>
+		<time value="40"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels/>
@@ -24,8 +24,10 @@
 		<unit-requirements>
 		</unit-requirements>
 		<upgrade-requirements>
-                  	<upgrade name="stables"/>
-                  	<upgrade name="iron"/>
+			<!--
+			<upgrade name="stables"/>
+			<upgrade name="iron"/>
+			-->
 		</upgrade-requirements>
 		<resource-requirements>
 			<resource name="wood" amount="100"/>

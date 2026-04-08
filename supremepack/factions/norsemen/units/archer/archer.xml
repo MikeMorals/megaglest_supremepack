@@ -27,8 +27,8 @@
 		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="wood" amount="50"/>
 			<resource name="gold" amount="100"/>
+			<resource name="wood" amount="50"/>
 			<resource name="food" amount="1"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -96,7 +96,7 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="70"/>
+			<speed value="60"/>
 			<anim-speed value="60"/>
 			<animation path="models/archer_attacking.g3d"/>
 			<sound enabled="true" start-time="0.5">
@@ -107,7 +107,7 @@
 			</sound>
 			<attack-strenght value="85"/>
 			<attack-var value="50"/>
-			<attack-range value="10"/>
+			<attack-range value="9"/>
 			<attack-type value="piercing"/>
 			<attack-start-time value="0.5"/>
 			<attack-fields>

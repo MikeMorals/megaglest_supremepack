@@ -3,11 +3,11 @@
 	<parameters>
 		<size value="4" />
 		<height value="4" />
-		<max-hp value="6000" regeneration="0"/>
+		<max-hp value="7000" regeneration="0"/>
 		<max-ep value="0" />
 		<armor value="0" />
 		<armor-type value="stone"/>
-		<sight value="5" />
+		<sight value="15" />
 		<time value="150" />
 		<multi-selection value="true"/>
 		<uniform-selection value="true"/>
@@ -26,16 +26,18 @@
 		</properties>
 		<light enabled="false" />
 		<rotationAllowed value="false" />
-		<unit-requirements/>
+		<unit-requirements>
+			<unit name="blacksmith"/>
+		</unit-requirements>
 		<upgrade-requirements />
 		<resource-requirements>
-			<resource name="gold" amount="200" />
-			<resource name="stone" amount="200" />
+			<resource name="gold" amount="250" />
+			<resource name="stone" amount="250" />
 		</resource-requirements>
 		<resources-stored>
-			<resource name="gold" amount="500"/>
-			<resource name="stone" amount="350"/>
-			<resource name="wood" amount="500" />
+			<resource name="gold" amount="750"/>
+			<resource name="stone" amount="500"/>
+			<resource name="wood" amount="750" />
 		</resources-stored>
 		<image path="images/self.bmp"/>
 		<image-cancel path="../archer/images/cancel.bmp"/>
@@ -113,16 +115,26 @@
 		</command>
 		<command>
 			<type value="produce"/>
-			<name value="produce_landsknech"/>
+			<name value="produce_greatsword"/>
 			<image path="../landsknech/images/self.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="landsknech"/>
 		</command>
+		<!--command>
+			<type value="produce"/>
+			<name value="produce_halberd"/>
+			<image path="../halberd/images/self.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="halberd"/>
+		</command!-->
+		
 		<command>
 			<type value="produce"/>
-			<name value="produce_longbow"/>
+			<name value="produce_greatbow"/>
 			<image path="../longbow/images/self.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>

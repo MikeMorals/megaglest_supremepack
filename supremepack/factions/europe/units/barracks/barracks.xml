@@ -142,12 +142,12 @@
 		-->
 		<command>
 			<type value="produce"/>
-			<name value="produce_horseman" />
-			<image path="../horseman/images/self.bmp" />
+			<name value="produce_halberd" />
+			<image path="../halberd/images/self.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
-			<produced-unit name="horseman"/>
+			<produced-unit name="halberd"/>
 		</command>
 	</commands>
 </unit>
