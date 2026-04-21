@@ -5,15 +5,16 @@
 		<size value="1"/>
 		<height value="2"/>
 		<max-hp value="700" regeneration="5"/>
-		<max-ep value="3000" regeneration="100"/>
+		<max-ep value="2000" regeneration="100"/>
 		<armor value="10"/>
 		<armor-type value="leather_and_metal"/>
 		<sight value="12"/>
-		<time value="40"/>
+		<time value="35"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
 			<level name="elite" kills="5"/>
+			<level name="master" kills="10"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -73,7 +74,7 @@
 		<skill>
 			<type value="attack"/>
 			<name value="ice_nova_skill"/>
-			<ep-cost value="300"/>
+			<ep-cost value="200"/>
 			<speed value="75"/>
 			<anim-speed value="75"/>
 			<animation path="models/attack.g3d"/>

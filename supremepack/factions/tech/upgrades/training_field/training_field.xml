@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/training_field.bmp"/>
 	<image-cancel path="../advanced_architecture/images/tech_upgrade_cancel.bmp"/>
-	<time value="300"/>
+	<time value="150"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<resource-requirements>
@@ -20,5 +20,5 @@
 	<attack-range value="0"/>
 	<armor value="0"/>
 	<move-speed value="0"/>
-	<production-speed value="150"/>
+	<production-speed value="33"/>
 </upgrade>

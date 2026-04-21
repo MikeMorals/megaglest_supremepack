@@ -4,20 +4,22 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="800" regeneration="3"/>
+		<max-hp value="700" regeneration="3"/>
 		<max-ep value="0"/>
 		<armor value="10"/>
 		<armor-type value="leather_and_metal"/>
 		<sight value="15"/>
-		<time value="35"/>
+		<time value="40"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
-		<levels/>
 		<fields>
 			<field value="land"/>
 			<field value="air"/>
 		</fields>
 		<properties/>
+		<levels>
+			<level name="elite" kills="5"/>
+		</levels>
 		<light enabled="false"/>
 		<unit-requirements>
 			<unit name="barracks"/>
@@ -96,17 +98,17 @@
 			<speed value="50"/>
 			<anim-speed value="50"/>
 			<animation path="models/attack.g3d"/>
-			<sound enabled="true" start-time="0.70">
-				<sound-file path="$COMMONDATAPATH/sounds/archer_attack1.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/archer_attack2.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/archer_attack3.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/archer_attack4.wav"/>
+			<sound enabled="true" start-time="0.55">
+				<sound-file path="$COMMONDATAPATH/newsounds/longbow2_attack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/newsounds/longbow2_attack2.wav"/>
+				<sound-file path="$COMMONDATAPATH/newsounds/longbow2_attack3.wav"/>
+				<sound-file path="$COMMONDATAPATH/newsounds/longbow2_attack4.wav"/>
 			</sound>
 			<attack-strenght value="125"/>
 			<attack-var value="50"/>
 			<attack-range value="12"/>
 			<attack-type value="piercing"/>
-			<attack-start-time value="0.5"/>
+			<attack-start-time value="0.60"/>
 			<attack-fields>
 				<field value="land"/>
 				<field value="air"/>

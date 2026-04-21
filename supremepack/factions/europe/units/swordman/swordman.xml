@@ -4,7 +4,7 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="700" regeneration="3"/>
+		<max-hp value="700" regeneration="4"/>
 		<max-ep value="0"/>
 		<armor value="30"/>
 		<armor-type value="leather_and_metal"/>
@@ -13,7 +13,7 @@
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="elite" kills="3"/>
+			<level name="elite" kills="2"/>
 		</levels>
 		<fields>
 			<field value="land"/>

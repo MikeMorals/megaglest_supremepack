@@ -70,8 +70,8 @@
 			<type value="upgrade"/>
 			<name value="upgrade_skill"/>
 			<ep-cost value="0" />
-			<speed value="300" />
-			<anim-speed value="300" />
+			<speed value="100" />
+			<anim-speed value="100" />
 			<animation path="models/barracks.g3d" />
 			<sound enabled="false" />
 		</skill>
@@ -79,8 +79,8 @@
 			<type value="produce"/>
 			<name value="produce_skill"/>
 			<ep-cost value="0" />
-			<speed value="300" />
-			<anim-speed value="300" />
+			<speed value="100" />
+			<anim-speed value="100" />
 			<animation path="models/barracks.g3d" />
 			<sound enabled="false" />
 		</skill>
