@@ -117,7 +117,7 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="archmage"/>
 		</command>
-		
+		<!--
 		<command>
 			<type value="produce"/>
 			<name value="produce_blastmage"/>
@@ -127,6 +127,6 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="blastmage"/>
 		</command>
-		
+		-->
 	</commands>
 </unit>

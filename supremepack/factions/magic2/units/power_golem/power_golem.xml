@@ -6,10 +6,10 @@
 		<height value="2"/>
 		<max-hp value="2500" regeneration="5"/>
 		<max-ep value="0"/>
-		<armor value="80"/>
+		<armor value="70"/>
 		<armor-type value="leather_and_metal"/>
 		<sight value="15"/>
-		<time value="20"/>
+		<time value="15"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels/>
@@ -94,7 +94,7 @@
 			<attack-strenght value="250"/>
 			<attack-var value="50"/>
 			<attack-range value="10"/>
-			<attack-type value="impact"/>
+			<attack-type value="piercing"/>
 			<attack-start-time value="0.4"/>
 			<attack-fields>
 				<field value="land"/>

@@ -4,16 +4,16 @@
 	<parameters>
 		<size value="2"/>
 		<height value="1"/>
-		<max-hp value="1700" regeneration="5"/>
+		<max-hp value="1000" regeneration="5"/>
 		<max-ep value="1000" regeneration="200"/>
-		<armor value="20"/>
-		<armor-type value="organic"/>
+		<armor value="0"/>
+		<armor-type value="leather_and_metal"/>
 		<sight value="15"/>
-		<time value="450"/>
+		<time value="60"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
-			<level name="expert" kills="8"/>
+			<level name="expert" kills="12"/>
 		</levels>
 		<fields>
 			<field value="air"/>

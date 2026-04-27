@@ -9,7 +9,7 @@
 		<armor value="15"/>
 		<armor-type value="leather_and_metal"/>
 		<sight value="12"/>
-		<time value="40"/>
+		<time value="60"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
@@ -116,9 +116,9 @@
 		<skill>
 			<type value="attack"/>
 			<name value="static_fire_skill"/>
-			<ep-cost value="400"/>
-			<speed value="50"/>
-			<anim-speed value="50"/>
+			<ep-cost value="300"/>
+			<speed value="60"/>
+			<anim-speed value="60"/>
 			<animation path="models/attack.g3d"/>
 			<sound enabled="true" start-time="0.20">
 				<sound-file path="sounds/archmage_attack17.wav"/>
@@ -130,10 +130,10 @@
 				<sound-file path="sounds/archmage_attack23.wav"/>
 				<sound-file path="sounds/archmage_attack24.wav"/>
 			</sound>
-			<attack-strenght value="200"/>
+			<attack-strenght value="150"/>
 			<attack-var value="50"/>
 			<attack-range value="9"/>
-			<attack-type value="energy"/>
+			<attack-type value="piercing"/>
 			<attack-fields>
 				<field value="land"/>
 				<field value="air"/>

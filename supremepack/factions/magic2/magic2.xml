@@ -11,8 +11,8 @@
 		<unit name="mage_tower" amount="1"/>
 		<unit name="initiate" amount="8"/>
 		<unit name="battlemage" amount="3"/>
-		<unit name="summoner" amount="3"/>
-		<unit name="ghost_armor" amount="0"/>
+		<unit name="summoner" amount="1"/>
+		<unit name="ghost_armor" amount="3"/>
 		<unit name="golem" amount="0"/>
 	</starting-units>
 	<music value="true" path="music/music_magic.ogg"/>
