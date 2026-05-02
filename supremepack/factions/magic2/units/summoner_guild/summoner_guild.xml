@@ -80,7 +80,7 @@
 			<type value="produce" />
 			<name value="produce_skill"/>
 			<ep-cost value="0" />
-			<speed value="100" />
+			<speed value="150" />
 			<anim-speed value="100" />
 			<animation path="models/summoner_guild.g3d" />
 			<sound enabled="false" />
