@@ -195,6 +195,7 @@
 			<move-skill value="move_skill"/>
 			<attack-skill value="ice_nova_skill"/>
 		</command>
+		<!--
 		<command>
 			<type value="attack"/>
 			<name value="static_fire"/>
@@ -205,6 +206,7 @@
 			<move-skill value="move_skill"/>
 			<attack-skill value="static_fire_skill"/>
 		</command>
+		-->
 		<command>
 			<type value="attack_stopped"/>
 			<name value="hold_position"/>

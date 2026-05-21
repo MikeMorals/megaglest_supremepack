@@ -6,8 +6,8 @@
 		<height value="1"/>
 		<max-hp value="700" regeneration="5"/>
 		<max-ep value="0"/>
-		<armor value="10"/>
-		<armor-type value="organic"/>
+		<armor value="0"/>
+		<armor-type value="leather_and_metal"/>
 		<sight value="15"/>
 		<time value="30"/>
 		<multi-selection value="true"/>
@@ -101,12 +101,15 @@
 			<anim-speed value="50"/>
 			<animation path="models/ornithopter_attacking.g3d"/>
 			<sound enabled="true" start-time="0.5">
-				<sound-file path="../priest/sounds/technician_attack.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archer_attack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archer_attack2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archer_attack3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archer_attack4.wav"/>
 			</sound>
 			<attack-strenght value="100"/>
 			<attack-var value="50"/>
-			<attack-range value="8"/>
-			<attack-type value="energy"/>
+			<attack-range value="9"/>
+			<attack-type value="piercing"/>
 			<attack-start-time value="0.5"/>
 			<attack-fields>
 				<field value="land"/>
@@ -114,15 +117,14 @@
 			<projectile value="true">
 				<particle value="true" path="molotov_particle_proj.xml"/>
 				<sound enabled="true">
-					<sound-file path="../priest/sounds/technician_hit1.wav"/>
-					<sound-file path="../priest/sounds/technician_hit2.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/arrow_hit1.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/arrow_hit2.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/arrow_hit3.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/arrow_hit4.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/arrow_hit5.wav"/>
 				</sound>
 			</projectile>
-			<splash value="true">
-				<radius value="1"/>
-				<damage-all value="true"/>
-				<particle value="true" path="molotov_particle_splash.xml"/>
-			</splash>
+			<splash value="false"/>
 		</skill>
 
 		<skill>

@@ -82,8 +82,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="100"/>
-			<anim-speed value="100"/>
+			<speed value="80"/>
+			<anim-speed value="80"/>
 			<animation path="models/worker_attacking.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/axe_thrower_attack1.wav"/>
@@ -96,7 +96,7 @@
 			<attack-strenght value="100"/>
 			<attack-var value="25"/>
 			<attack-range value="7"/>
-			<attack-type value="energy"/>
+			<attack-type value="piercing"/>
 			<attack-fields>
 				<field value="land"/>
 			</attack-fields>

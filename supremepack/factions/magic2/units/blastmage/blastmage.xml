@@ -21,13 +21,11 @@
 		<properties/>
 		<light enabled="false"/>
 		<unit-requirements>
-			<unit name="library"/>
 			<unit name="archmage_tower"/>
-			<unit name="energy_source"/>
 		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="gold" amount="250"/>
+			<resource name="gold" amount="200"/>
 			<resource name="energy" amount="1"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -117,8 +115,8 @@
 			<type value="attack"/>
 			<name value="static_fire_skill"/>
 			<ep-cost value="300"/>
-			<speed value="60"/>
-			<anim-speed value="60"/>
+			<speed value="50"/>
+			<anim-speed value="50"/>
 			<animation path="models/attack.g3d"/>
 			<sound enabled="true" start-time="0.20">
 				<sound-file path="sounds/archmage_attack17.wav"/>
@@ -132,7 +130,7 @@
 			</sound>
 			<attack-strenght value="150"/>
 			<attack-var value="50"/>
-			<attack-range value="9"/>
+			<attack-range value="8"/>
 			<attack-type value="piercing"/>
 			<attack-fields>
 				<field value="land"/>

@@ -7,12 +7,12 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="700" regeneration="2"/>
+		<max-hp value="700" regeneration="5"/>
 		<max-ep value="0"/>
-		<armor value="20"/>
-		<armor-type value="leather"/>
+		<armor value="10"/>
+		<armor-type value="leather_and_metal"/>
 		<sight value="10"/>
-		<time value="50"/>
+		<time value="15"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
@@ -29,7 +29,7 @@
 		<upgrade-requirements/>
 		<resource-requirements>
 			<resource name="wood" amount="25"/>
-			<resource name="gold" amount="50"/>
+			<resource name="gold" amount="40"/>
 			<resource name="food" amount="1"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -69,7 +69,7 @@
 			<type value="move"/>
 			<name value="move_skill"/>
 			<ep-cost value="0"/>
-			<speed value="180"/>
+			<speed value="190"/>
 			<anim-speed value="90"/>
 			<animation path="models/spearman_walking.g3d"/>
 			<sound enabled="false"/>
@@ -79,8 +79,8 @@
 			<type value="move"/>
 			<name value="charge_skill"/>
 			<ep-cost value="0"/>
-			<speed value=" 180"/>
-			<anim-speed value="90"/>
+			<speed value="190"/>
+			<anim-speed value="100"/>
 			<animation path="models/spearman_charging.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -89,8 +89,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="150"/>
-			<anim-speed value="90"/>
+			<speed value="100"/>
+			<anim-speed value="100"/>
 			<animation path="models/spearman_attacking.g3d"/>
 			<sound enabled="true" start-time="0.47">
 				<sound-file path="sounds/swordman_attack1.wav"/>
@@ -106,8 +106,8 @@
 				<sound-file path="sounds/swordman_attack11.wav"/>
 				<sound-file path="sounds/swordman_attack12.wav"/>
 			</sound>
-			<attack-strenght value="80"/>
-			<attack-var value="20"/>
+			<attack-strenght value="75"/>
+			<attack-var value="25"/>
 			<attack-range value="1"/>
 			<attack-type value="piercing"/>
 			<attack-fields>
@@ -123,7 +123,7 @@
 			<type value="morph"/>
 			<name value="morph_skill"/>
 			<ep-cost value="0"/>
-			<speed value="500"/>
+			<speed value="100"/>
 			<anim-speed value="80"/>
 			<animation path="../spearman_berserk/models/spearman_morphing.g3d"/>
 			<sound enabled="false"/>

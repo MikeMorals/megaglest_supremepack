@@ -60,7 +60,7 @@
 			<type value="produce" />
 			<name value="produce_skill"/>
 			<ep-cost value="0" />
-			<speed value="300" />
+			<speed value="100" />
 			<anim-speed value="50" />
 			<animation path="models/walhalla.g3d" />
 			<particles value="true">
@@ -73,7 +73,7 @@
 			<type value="stop"/>
 			<name value="stop_skill"/>
 			<ep-cost value="0"/>
-			<speed value="300"/>
+			<speed value="100"/>
 			<anim-speed value="100"/>
 			<animation path="models/walhalla.g3d"/>
 			<sound enabled="false"/>
@@ -82,8 +82,8 @@
 			<type value="die"/>
 			<name value="die_skill"/>
 			<ep-cost value="0" />
-			<speed value="300"/>
-			<anim-speed value="300" />
+			<speed value="100"/>
+			<anim-speed value="100" />
 			<animation path="models/walhalla_destroyed.g3d"/>
 			<particles value="true">
 				<particle-file path="smoke_particles.xml"/>
@@ -98,8 +98,8 @@
 			<type value="upgrade"/>
 			<name value="upgrade_skill"/>
 			<ep-cost value="0"/>
-			<speed value="300"/>
-			<anim-speed value="300"/>
+			<speed value="100"/>
+			<anim-speed value="100"/>
 			<animation path="models/walhalla.g3d"/>
 			<sound enabled="false"/>
 		</skill>

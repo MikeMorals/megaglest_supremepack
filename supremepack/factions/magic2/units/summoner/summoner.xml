@@ -10,7 +10,7 @@
 		<armor value="10"/>
 		<armor-type value="leather_and_metal"/>
 		<sight value="10"/>
-		<time value="80"/>
+		<time value="60"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels/>
@@ -116,7 +116,7 @@
 			</sound>
 			<attack-strenght value="100"/>
 			<attack-var value="50"/>
-			<attack-range value="9"/>
+			<attack-range value="10"/>
 			<attack-type value="energy"/>
 			<attack-fields>
 				<field value="land"/>

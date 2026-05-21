@@ -7,12 +7,12 @@
 	<parameters>
 		<size value="1"/>
 		<height value="1"/>
-		<max-hp value="700" regeneration="2"/>
+		<max-hp value="500" regeneration="10"/>
 		<max-ep value="0"/>
-		<armor value="3"/>
-		<armor-type value="organic"/>
+		<armor value="0"/>
+		<armor-type value="leather_and_metal"/>
 		<sight value="12"/>
-		<time value="30"/>
+		<time value="16"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels/>
@@ -85,10 +85,10 @@
 				<sound-file path="sounds/pig_attack2.wav"/>
 				<sound-file path="sounds/pig_attack3.wav"/>
 			</sound>
-			<attack-strenght value="75"/>
-			<attack-var value="40"/>
+			<attack-strenght value="50"/>
+			<attack-var value="25"/>
 			<attack-range value="1"/>
-			<attack-type value="magic"/>
+			<attack-type value="slashing"/>
 			<attack-fields>
 				<field value="land"/>
 			</attack-fields>

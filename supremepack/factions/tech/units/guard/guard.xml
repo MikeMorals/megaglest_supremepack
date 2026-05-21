@@ -9,7 +9,7 @@
 		<armor value="40"/>
 		<armor-type value="leather_and_metal"/>
 		<sight value="10"/>
-		<time value="25"/>
+		<time value="20"/>
 		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
@@ -27,7 +27,7 @@
 		<upgrade-requirements/>
 		<resource-requirements>
 			<resource name="wood" amount="50"/>
-			<resource name="gold" amount="150"/>
+			<resource name="gold" amount="140"/>
 			<resource name="food" amount="1"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -77,8 +77,8 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>
 			<ep-cost value="0"/>
-			<speed value="100"/>
-			<anim-speed value="100"/>
+			<speed value="110"/>
+			<anim-speed value="110"/>
 			<animation path="models/guard_attacking.g3d"/>
 			<sound enabled="true" start-time="0.47">
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack1.wav"/>
@@ -96,7 +96,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack13.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack14.wav"/>
 			</sound>
-			<attack-strenght value="100"/>
+			<attack-strenght value="75"/>
 			<attack-var value="25"/>
 			<attack-range value="1"/>
 			<attack-type value="slashing"/>
